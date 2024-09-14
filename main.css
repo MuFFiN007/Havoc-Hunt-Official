@@ -72,6 +72,7 @@ header {
   display: inline-block;
   position: relative;
   opacity: 0.75;
+  border: none;
 }
 .menu nav ul li a:hover {
   opacity: 1;
@@ -90,4 +91,52 @@ header {
   transition: 900ms;
   bottom: -10px;
   opacity: 1;
+}
+
+.firstsec {
+  background-image: url(/asset/kakashi.png);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  color: var(--white);
+}
+.firstsec .firstcont {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.firstsec .firstcont h1 {
+  margin-top: 15%;
+  margin-bottom: 8rem;
+  font-size: 6rem;
+  font-weight: 700;
+  text-shadow: var(--black) 1px 0 10px;
+}
+.firstsec .firstcont h1 span {
+  color: #c73659;
+  text-shadow: var(--red) 1px 0 10px;
+}
+.firstsec .firstcont p {
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px var(--red), 0 0 1em var(--black), 0 0 0.2em var(--black);
+}
+.firstsec .firstcont button {
+  font-family: "Rowdies", sans-serif;
+  margin-top: 9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ff6e8b;
+  border: 2px solid #ff6e8b;
+  border-radius: 5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.9rem;
+  padding-left: 0.9rem;
+  transition: 200ms;
+}
+.firstsec .firstcont button:hover {
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.614), inset 0px 0px 10px 1px var(--red), 0px 0px 10px 2px var(--red);
+  color: #ff2b55;
 }/*# sourceMappingURL=main.css.map */
