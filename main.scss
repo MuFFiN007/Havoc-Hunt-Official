@@ -13,21 +13,18 @@
 }
 body{
   background-color: var(--black);
-  // cursor: none;
 }
 header {
-  // border: 1px solid red;
   background-color: var(--black);
 }
 .menu {
-  // position: sticky;
   color: white;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  // border: 1px solid black;
   font-weight: 600;
   font-size: 1.5rem;
+  letter-spacing: 1.5px;
   button {
     font-size: 1.2rem;
     padding-top: 0.4rem;
@@ -97,7 +94,7 @@ header {
   }
 }
 .firstsec{
-  background-image: url(/asset/kakashi.png);
+  background-image: url(./asset/kakashi.png);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -137,7 +134,7 @@ header {
       border: 2px solid #ff6e8b;
       border-radius: 5rem;
       padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.6rem;
       padding-right: 0.9rem;
       padding-left: 0.9rem;
       transition: 200ms;
@@ -149,7 +146,7 @@ header {
   }
 }
 .secondsec{
-  background-image: url(/asset/pattern.png);
+  background-image: url(./asset/pattern.png);
   background-size: contain;
 }
 .beechwala{
@@ -231,10 +228,12 @@ header {
     width: 100%;
   }
 }
+.border{
+  border: 8px solid black;
+  border-radius: 6px;
+}
 
 .slideshow-container {
-  border: 5px solid black;
-  border-radius: 4px;
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -298,7 +297,7 @@ header {
   font-size: 2rem;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 1%;
   font-weight: 300;
 }
 
