@@ -150,6 +150,7 @@ header {
   background-size: contain;
 }
 .beechwala{
+  padding: 2rem;
   display: flex;
   gap: 3rem;
   .rightwala{
@@ -213,6 +214,8 @@ header {
   color: var(--white);
   font-size: 5rem;
   h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-shadow: var(--black) 1px 0 10px;
     span{
       color: var(--red);

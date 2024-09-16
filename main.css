@@ -158,6 +158,7 @@ header {
 }
 
 .beechwala {
+  padding: 2rem;
   display: flex;
   gap: 3rem;
 }
@@ -220,6 +221,8 @@ header {
   font-size: 5rem;
 }
 .featskins h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-shadow: var(--black) 1px 0 10px;
 }
 .featskins h1 span {
