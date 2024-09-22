@@ -344,6 +344,7 @@ header {
   background-image: url(/asset/pattern3.png);
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.822), inset 0px -10px 10px rgba(0, 0, 0, 0.822);
 }
 .Latest-Update .latestmain {
   display: flex;
