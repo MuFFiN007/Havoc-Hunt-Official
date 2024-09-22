@@ -153,8 +153,10 @@ header {
 }
 
 .secondsec {
-  background-image: url(asset/pattern.png);
-  background-size: contain;
+  background-image: url(asset/pattern2.png);
+  background-size: cover;
+  background-position: center bottom;
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.822), inset 0px -10px 10px rgba(0, 0, 0, 0.822);
 }
 
 .beechwala {
@@ -239,7 +241,7 @@ header {
 }
 
 .border {
-  border: 8px solid black;
+  border: 8px solid rgba(0, 0, 0, 0.74);
   border-radius: 6px;
 }
 
@@ -264,7 +266,8 @@ header {
   z-index: -1;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -286,7 +289,8 @@ header {
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -323,7 +327,8 @@ header {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #292929;
 }
 
