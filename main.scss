@@ -356,16 +356,19 @@ header {
     .card1set{
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       gap: 8rem;
       margin-top: 15%;
       padding: 1rem;
     }
     .card2set{
+      flex-wrap: wrap;
       margin-top: 8rem;
       display: flex;
       flex-direction: row;
       gap: 8rem;
       margin-bottom: 8rem;
+      padding: 1rem;
     }
   }
 }
