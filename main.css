@@ -29,6 +29,7 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 1.5px;
+  text-decoration: none;
 }
 .menu button {
   font-size: 1.2rem;
@@ -71,11 +72,13 @@ header {
   gap: 3rem;
   flex-wrap: wrap;
   cursor: default;
+  text-decoration: none;
 }
 .menu nav ul img {
   width: 6.5rem;
 }
 .menu nav ul li a {
+  color: var(--white);
   display: inline-block;
   position: relative;
   opacity: 0.75;

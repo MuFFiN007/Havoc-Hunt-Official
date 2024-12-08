@@ -25,6 +25,7 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 1.5px;
+  text-decoration: none;
   button {
     font-size: 1.2rem;
     padding-top: 0.4rem;
@@ -66,10 +67,12 @@ header {
   gap: 3rem;
   flex-wrap: wrap;
   cursor: default;
+  text-decoration: none;
   img {
     width: 6.5rem;
   }
   li a {
+    color: var(--white);
     display: inline-block;
     position: relative;
     opacity: 0.75;
